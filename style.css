@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+:root{
+    /* Primary */
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+
+    /* Neutral */
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(./images/bg-header-desktop.png);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.container img{
+    width: 80px;
+    height: 80px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    height: 500px;
+    text-align: center;
+    align-items: center;
+}
+.header-one{
+    padding-top: 7%;
+}
+header h1{
+    color: var(--Dark-Grayish-Blue);
+    margin-top: 25px;
+}
+header p{
+    color: var(--Grayish-Blue);
+    margin-top: 15px;
+}
+.btn{
+    padding: 25px;
+    display: flex;
+    /* border: 1px solid black; */
+    align-items: center;
+    justify-content: space-around;   
+}
+.btn button{
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.btn #ios{
+    background-color: var(--Strong-Cyan);
+}
+.btn #andro{
+    background-color: var(--Light-Blue);
+}
+.snippets{
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.snippets h1{
+    color: var(--Dark-Grayish-Blue);
+}
+.snippets p{
+    color: var(--Grayish-Blue);
+    margin-top: 15px;
+}
+section{
+    margin-top: 50px;
+    display: flex;
+    /* border: 1px solid black; */
+
+}
+section .laptop img{
+    width: 600px;
+    height: 400px;
+    margin-right: 200px;
+}
+section .features-wrap{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+}
+section .features-wrap h2{
+    color: var(--Dark-Grayish-Blue);
+}
+section .features-wrap p{
+    color: var(--Grayish-Blue);    
+}
+.access{
+    text-align: center;
+    margin-top: 70px;
+    /* border: 1px solid black; */
+    margin: 70px auto;
+}
+.access h1{
+    color: var(--Dark-Grayish-Blue);
+}
+.access p{
+    color: var(--Grayish-Blue);
+}
+.access img{
+    width: 700px;
+    height: 400px;
+}
+.supercharge{
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.flow h1{
+    color: var(--Dark-Grayish-Blue);
+}
+.flow p{
+    color: var(--Grayish-Blue);
+}
+.supercharge-box{
+    height: 200px;
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.supercharge-box-list{
+    padding: 50px 0;
+    width: 400px;
+    height: 200px;
+}
+.supercharge-box-list i{
+    text-align: center;
+    color: var(--Dark-Grayish-Blue);
+}
+.supercharge-box-list h2{
+    color: var(--Dark-Grayish-Blue);
+}
+.supercharge-box-list p{
+    color: var(--Grayish-Blue);
+}
+.sponsor{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sponsor img{
+    height: 35px;
+    width: 100px;
+}
+.workflow-wrap{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid black; */
+    height: 200px;
+    text-align: center;
+    align-items: center;   
+}
+.workflow h1{
+    color: var(--Dark-Grayish-Blue);
+}
+.workflow p{
+    color: var(--Grayish-Blue);
+    margin-top: 20px;
+}
+.workflow-wrap .second-btn{
+    margin-top: 25px;
+    width: 450px;
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.second-btn button{
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.second-btn #second-ios{
+    background-color: var(--Strong-Cyan);
+}
+.second-btn #second-andro{
+    background-color: var(--Light-Blue);
+}
+.footer{
+    margin-top: 50px;
+    /* border: 1px solid black; */
+    background-color: var(--Grayish-Blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 100px;
+}
+.footer .footer-logo img{
+    width: 60px;
+    height: 60px;
+}
+.footer .footer-links {
+    flex: 1;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px 0;
+    padding: 0 100px;
+}
+.footer .footer-links li {
+    width: 200px;
+    margin: 10px 0;
+}
+.footer .footer-links li a{
+    text-decoration: none;
+    color: var(--Dark-Grayish-Blue);
+}
+.footer-socials img{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
